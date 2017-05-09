@@ -25,4 +25,4 @@ var SandwichMaker = (function() {
   return totalPrice;
   return finalSandwich;
   return SandwichMaker;
-})();
+})(SandwichMaker || {});
