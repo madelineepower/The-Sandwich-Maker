@@ -12,12 +12,12 @@ var SandwichMaker = (function() {
         addTopping: function(toppingPrice) {
               totalPrice += toppingPrice;
               console.log(totalPrice);
-              finalSandwichDiv.innerHTML = totalPrice;
+              finalSandwichDiv.innerHTML = `<h4>Order Total:</h4><p>$${totalPrice.toFixed(2)}</p>`;
       },
         showToppings: function(toppingChoices) {
             finalSandwich.push(toppingChoices);
             console.log("finalSandwich", finalSandwich);
-            finalSandwichDiv.innerHTML += `<p>${finalSandwich}</p>`;
+            finalSandwichDiv.innerHTML += `<h4>Your Sandwich has:</h4><p>${finalSandwich}</p>`;
 
       }
   };
