@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sandwich Maker</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  </head>
+  <body>
+    <h1>Sandwich Maker</h1>
+      <form>
+        <select id="breadChoice">
+          Select your bread:
+          <option value="white"/>White</option>
+          <option value="wheat"/>Wheat</option>
+          <option value="Gluten Free"/>Gluten Free</option>
+          <option value="No Bread"/>No Bread</option>
+        </select>
+        <select id="meatChoice" multiple>
+          Select your meats(s):
+          <option value="turkey" />Turkey</option>
+          <option value="bacon" />Bacon</option>
+          <option value="Salami" />Salami</option>
+          <option value="ham" />Ham</option>
+          <option value="pepperoni" />Pepperoni</option>
+          <option value="none" />No Meat</option>
+        </select>
+        <select multiple>
+          Select your cheese:
+          <option value="American" />American</option>
+          <option value="provolone" />Provolone</option>
+          <option value="swiss" />Swiss</option>
+          <option value="cheddar" />Cheddar</option>
+          <option value="none" />No Cheese</option>
+        </select>
+        <select>
+          Select your Veggies:
+          <option value="lettuce" />Lettuce</option>
+          <option value="Tomato" />Tomato</option>
+          <option value="Onion" />Onion</option>
+          <option value="Peppers" />Peppers</option>
+          <option value="Pickles" />Pickles</option>
+          <option value="none" />No Veggies</option>
+        </select>
+        <select>
+          Select your condiments:
+          <option value="Mayo" />Mayo</option>
+          <option value="Ranch" />Ranch</option>
+          <option value="Siracha Mayo" />Siracha Mayo</option>
+          <option value="Mustard" />Mustard</option>
+          <option value="none" />No Condiments</option>
+        </select>
+      </form>
+      <section>
+        <div id="finalSandwich">
+
+        </div>
+      </section>
+  <script type="text/javascript" src="javascripts/SandwichMaker.js"></script>
+  <script type="text/javascript" src="javascripts/Bread.js"></script>
+  <script type="text/javascript" src="javascripts/Meat.js"></script>
+  <script type="text/javascript" src="javascripts/DOMHandler.js"></script>
+  <!-- <script type="text/javascript" src="javascripts/Cheese.js"></script>
+  <script type="text/javascript" src="javascripts/Veggies.js"></script>
+  <script type="text/javascript" src="javascripts/Condiments.js"></script> -->
+  </body>
+</html>
