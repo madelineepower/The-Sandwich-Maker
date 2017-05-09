@@ -1,5 +1,4 @@
 "use strict";
-console.log("hey");
 
 var SandwichMaker = (function() {
 

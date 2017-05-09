@@ -1,9 +1,9 @@
 "use strict";
-console.log("hi");
+
 var finalVeggiePrice = 0
 var VeggieChoice = "";
 
-var addingVeggie = (function(sandwich) {
+var SandwichMaker = (function(sandwich) {
   var veggiePrices = {"Lettuce": 1.50, "Tomato": 1.75, "Onion": 1.80, "Peppers": 1.90, "Pickles": 1.00, "No Veggies": 0.00};
 
 
@@ -18,6 +18,5 @@ var addingVeggie = (function(sandwich) {
               }
            }
         }
-  // return finalMeatPrice;
-  return addingVeggie;
+  return SandwichMaker;
 })(SandwichMaker || {});
